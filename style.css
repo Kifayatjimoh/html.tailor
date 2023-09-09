@@ -1,0 +1,652 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+html{
+    font-size: 95.5%;
+}
+body{
+    font-family: sans-serif;
+}
+.contain{
+   
+    background-image: url('christopher-campbell-rDEOVtE7vOs-unsplash.jpg');
+    background-size: cover  ;
+       background-position: center;   
+    background-repeat: no-repeat;
+     /* min-height: 100vh;  */
+    overflow: hidden;
+    
+
+  
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.8rem;
+ 
+    
+    
+}
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    /* border-bottom: 1px solid blue;
+    margin-right: 20px; */
+}
+.flex{
+    display: flex;
+    gap: 20px;
+   
+    
+}
+
+.expert{
+    margin-left: 20px;
+}
+.flex-two{
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.sub-head{
+    border-bottom: 1px solid black;
+   
+    /* margin-right: 60px; */
+
+}
+.trends{
+    /* color: #f82318; */
+    text-transform: uppercase;
+    
+}
+.font{
+    font-size: 10px;
+    padding: 4px;
+}
+.mail{
+    /* color: white; */
+    color: black;
+}
+.icon{
+    padding: 5px;
+    background-color: rgb(252, 250, 248);
+    color: black;
+    /* border: 1px solid black; */
+}
+
+.icon:hover,
+.icon:active{
+    background-color: red;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    text-decoration: none;
+    /* color: white; */
+    color: black;
+
+}
+.btn:hover,
+.btn:active{
+    color: red;
+    
+
+}
+.border{
+    border-bottom: 1px solid black;
+   
+}
+
+.p{
+    /* color: rgb(165, 145, 145); */
+    font-size: 2.1rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+.padding-one{
+    padding: 4rem;
+    
+}
+.btn-two{
+
+    padding: 10px;
+    background-color: red;
+    
+    color: black;
+}
+.btn-two:link{
+    display: inline-block;
+    
+}
+.btn-two:hover{
+    background-color: rgb(206, 10, 10);
+    color: white;
+}
+.padding{
+    margin-top: 40px;
+}
+.welcome{
+    font-size: 1.8rem;
+    
+}
+.me{
+    padding: 6px;
+}
+
+/* section */
+.section{
+    background-color: black;
+   min-width: 100%;
+   /* height: 20vh; */
+   /* padding-top: 2rem; */
+}
+.flex-three{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.peak{
+    padding: 4rem;
+}
+
+.icon-two{
+    font-size: 2.3rem;
+    padding: 20px;
+    color: white;
+}
+.icon-two:hover{
+    background-color: red;
+
+}
+.order{
+    color: red;
+    line-height: 1.7;
+    font-size: 1.5rem;
+    padding-bottom: 10px; 
+    
+}
+.text{
+    color: rgb(192, 189, 189);
+}
+/* our trends */
+.section-two{
+    padding: 3rem;
+   
+}
+.trend-two{
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: center;
+}
+.words{
+    padding: 10px;
+     text-align: center;
+    padding-bottom: 3rem;
+    font-size: 13px;
+    
+}
+.word{
+    color: rgb(212, 97, 97);
+}
+.ul{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+.icon-three{
+    padding: 10px;
+    border: 1px solid black; 
+    border-radius: 70%;
+    color: black;
+}
+.face:hover{
+    background-color: #3b5998;
+    color: white;
+    
+}
+.rss:hover{
+    background-color: #f77409;
+}
+.twit:hover{
+    background-color: #1da1f2;
+    color: white;
+}
+.pics{
+
+  margin-top: 10rem;
+margin-left: -60px;
+    
+}
+.print{
+    margin-left: 30px;
+}
+
+.padding-three{
+    padding-left: 9rem;
+    display: flex;
+    
+}
+.exclusive{
+    color: #111;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1;
+
+}
+.best{
+    font-size: 1.2rem;
+    color: rgb(102, 18, 180);
+    padding-top: 20px;
+}
+/* our services */
+.section-three{
+    background-color: rgb(212, 216, 218);
+    padding-bottom: 30px;
+}
+.grid{
+    margin-left: 5rem;
+   
+}
+.lense{
+    text-align: center;
+}
+.work{
+    font-size: 2.2rem;
+    padding: 20px;
+}
+.hour{
+    padding: 10px;
+    margin-bottom: 3rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+  
+}
+.client{
+    background-color: white;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+}
+.gray{
+    position: relative;
+    top: -30px;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 70%;
+    background-color: blue;
+    color: white;
+}
+.amt{
+    font-size: 2rem;
+    padding: 10px;
+}
+.popular{
+    padding-bottom: 20px;
+}
+
+/* our gallery */
+/* .gall{
+    padding: 20px;
+} */
+.designs{
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.grid-three{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 4rem;
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+   
+}
+
+
+
+/* our team */
+.grid-four{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 4rem;
+    text-align: center;
+}
+.andrew{
+    padding: 13px;
+}
+.grid-four img{
+    width: 90%;
+}
+
+/* form */
+/* #mail{
+    background-color: wheat;
+} */
+.touch{
+    padding-bottom: 3rem;
+}
+.form{
+    text-align: center;
+   
+}
+input[type = text]{
+    width:30%;
+    padding: 18px;
+    margin-bottom: 2rem;
+    outline: none;
+}
+input[type = email]{
+    width: 60%;
+    padding: 18px;
+    margin-bottom: 2rem;
+    outline: none;
+    
+}
+textarea{
+    width: 60%;
+    height: 210px;
+    resize: none;
+    text-align: left;
+    padding-left: 9px;
+    margin-bottom: 2rem;
+    outline: none;
+    text-transform: uppercase;
+}
+input[type = submit]{
+    width: 15%;
+    padding: 20px;
+     color: #fff;
+    border: none;
+    
+}
+.div{
+    padding: 20px;
+}
+.column{
+    background-color: red;
+}
+.sub:hover{
+    background-color: rgb(223, 28, 28);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+/* footer */
+footer{
+    background-color:  #242424;
+    /* height: 100vh; */
+}
+.form-two{
+    margin-top: 5rem;
+}
+.subs{
+    padding: 30px;
+    text-align: center;
+}
+.sub-two{
+    background-color: red;
+    padding: 40px;
+}
+.sub-two:hover{
+    background-color: rgb(223, 12, 23);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.trend{
+    text-align: center;
+}
+.trender{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.awe{
+    color: #fff;
+}
+.some{
+    padding: 28px;
+    font-size: 2rem;
+}
+.flex-four{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 20px;
+    padding: 3rem;
+}
+.google-icon{
+    background-color:  #242424;
+   color: #fff;
+   border: 1px solid white;
+    padding: 20px;
+    border-radius: 1%;
+    font-size: 1.1rem;
+}
+.google-icon:hover{
+    background-color: red;
+    transition: 0.5s ease-in-out;
+}
+.flex-five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.flex-icon{
+    display: flex;
+    gap: 10px;
+}
+.example:link,
+.example:visited{
+    text-decoration: none;
+    color: #fff;
+}
+.example:hover{
+   border-bottom: 1px solid #fff;
+}
+.blue{
+    color: white;
+    font-size: 1.5rem;
+}
+.same{
+    font-size: 1.5rem;
+}
+.tame{
+    font-size: 17px;
+}
+.grid-five{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.flex-six{
+    display: flex;
+    gap: 20px;
+    
+}
+.btn-three:link,
+.btn-three:visited{
+    text-decoration: none;
+    color: white;
+   
+
+}
+.btn-three:hover{
+    color: rgb(173, 33, 33);
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1059px){
+ .pics{
+     margin-left: -90px;
+ }
+ .padding-three {
+    padding-left: 0;
+    
+ }
+}
+ @media(max-width: 976px){
+     .grid{
+         grid-template-columns: repeat(2,1fr);
+         gap: 50px;
+     }
+ }
+
+ 
+ @media(max-width: 902px){
+    .padding-three{
+        flex-direction: column;
+    }
+   
+    .pics{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    
+ }
+ 
+ @media(max-width: 770px){
+    .flex-three {
+        flex-direction: column;
+        gap: 20px;
+        
+
+       
+    } 
+    .bottom{
+        border-bottom: 1px solid white;
+        padding: 8px;
+    }
+.entire{
+    margin-top: 220px;
+   
+}
+    
+  
+
+ }
+ @media(max-width: 697px){
+     .trend-two{
+         font-size: 1.8rem;
+     }
+            .grid{
+                grid-template-columns: 1fr;
+            }
+            .grid-three{
+                grid-template-columns: repeat(3,1fr);
+            }
+           
+            .pink{
+                padding-left: -38px;
+            }
+            .grid{
+                grid-template-columns: 1fr;
+                /* gap: 50px; */
+                padding-left: 50px;
+            }
+            .grid-three{
+                grid-template-columns: repeat(2,1fr);
+            }
+            .grid-four{
+                grid-template-columns: repeat(2,1fr);
+            }
+ }
+ @media(max-width: 649px){
+ .fixed-box{
+                width: 109%;
+            }
+ }
+ @media(max-width: 592px){
+ .section-two{
+    padding: 0;
+}
+.pink{
+    width: 80%;
+}
+ }
+@media(max-width: 576px){
+     .grid-four{
+         grid-template-columns: 1fr;
+         padding: 0;
+     }
+     .fixed-box{
+        width: 112%;
+        overflow: hidden;
+    }
+   
+    .flex-five{
+        flex-direction: column;
+    }
+    .subs{
+        text-align: left;
+        
+    }
+   .grid-three{
+       grid-template-columns: 1fr;
+       padding: 0;
+       width: 90%;
+   }
+  
+ 
+ }
+ @media(max-width: 460px){
+    .grid-five {
+       flex-direction: column-reverse;
+       gap: 20px;
+    }
+    input[type=submit]{
+        width: 30%;
+    }
+    .grid{
+       padding: 0;
+    }
+    .trend-two{
+        font-size: 1rem;
+        padding: 35px;
+    }
+    .section-three, .gall{
+        margin-top: 50px;
+    }
+    .tend{
+        margin-top:30px;
+    }
+    .intel{
+        padding-top: 0;
+        padding-bottom:  20px;
+
+    }
+    .some{
+        font-size: 1.3rem;
+    }
+    .flex-six{
+        font-size: 0.7rem;
+    }
+    .google-icon{
+        padding: 0.5rem;
+    }
+   
+ }
